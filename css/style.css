@@ -1,70 +1,104 @@
-        body, h1, h2, h3, h4, h5, h6, button, #boost, #description {
-        font-family: "Luckiest Guy", cursive;
-        letter-spacing: 1px;}
-        body {
-            background: linear-gradient(135deg, #e9eef5, #f9fafc);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
 
-        /* PHONE-STYLE CARD */
-        .page {
-            background: white;
-            padding: 50px 35px;
-            border-radius: 45px;
-            max-width: 380px;   /* ressemble à un smartphone */
-            width: 100%;
-            min-height: 600px;
-            text-align: center;
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0);
-            display: none;
-        }
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+#boost,
+#description {
+  font-family: "Luckiest Guy", cursive;
+  letter-spacing: 1px;
+}
 
-        #logo {
-            width: 250px;  /* plus grand */
-            margin-bottom: 1px;
-        }
 
-        .btn-custom {
-            background-color: #82D8FF;
-            color: white;
-            padding: 14px 26px;
-            font-size: 20px;
-            border: none;
-            border-radius: 10px;
-            transition: 0.2s;
-        }
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 
-        .btn-shadow {
-            box-shadow: 0px 6px 0px rgba(0,0,0,0.45); /* OMBRE NOIRE */
-        }
+  /* Papier quadrillé */
+  background-color: #fdfdfd;
+  background-image:
+    linear-gradient(#dbe9ff 1px, transparent 1px),
+    linear-gradient(90deg, #dbe9ff 1px, transparent 1px);
+  background-size: 35px 35px;
+}
 
-        .btn-custom:hover {
-            background-color: #0053b5;
-        }
+.page {
+  background: white;
+  padding: 60px 35px;
+  border-radius: 40px;
+  max-width: 420px;
+  width: 100%;
+  min-height: 650px;
+  text-align: center;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.12);
+  display: none;
+}
 
-        #boost {
-            font-size: 52 px;
-            font-weight: bold;
-            margin-top: 5px;
-            color: #222;
-        }
 
-        #description {
-            font-size: 15px;
-            margin-top: 12px;
-            color: #555;
-        }
+#logo {
+  width: 280px;       /* plus grand */
+  display: block;
+  margin: 0 auto 25px auto;
+}
 
-        /* Fade-in animation */
-        .fade {
-            animation: fadeIn 0.5s ease forwards;
-        }
+.btn-custom {
+  background-color: #82d8ff;  
+  color: white;
+  padding: 18px 32px;
+  font-size: 24px;
+  border: none;
+  border-radius: 16px;
+  transition: 0.2s;
+  width: 100%;
+  max-width: 260px;
+}
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to   { opacity: 1; transform: translateY(0); }
-        }
+
+.btn-shadow {
+  box-shadow: 0px 10px 0px #000000;
+}
+
+
+.btn-custom:active {
+  transform: translateY(5px);
+  box-shadow: 0px 5px 0px #000000;
+}
+
+.btn-custom:hover {
+  background-color: #6ec7f1;
+}
+
+#boost {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 40px;
+  color: #222;
+}
+
+#description {
+  font-size: 18px;
+  margin-top: 12px;
+  color: #555;
+}
+
+.fade {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
