@@ -1,28 +1,45 @@
 const boosts = [
   { name: "Creativity +5", desc: "Add 5 points to your Creativity skill." },
-  { name: "Communication +3", desc: "Boost your Communication by +3." },
-  { name: "Webdesign +4", desc: "Increase your Webdesign skill by 4." },
-  { name: "Development +5", desc: "Add +5 to Development for this duel." },
+  { name: "UX Design +4", desc: "Improve your UX Design skill by 4 points." },
   {
-    name: "Critical Thinking +2",
-    desc: "Improve your Critical Thinking by 2.",
+    name: "Time Management +3",
+    desc: "Boost your Time Management by 3 points.",
+  },
+  { name: "Coding +5", desc: "Increase your Coding skill by 5 points." },
+  {
+    name: "UI Design +4",
+    desc: "Strengthen your UI Design skill by 4 points.",
   },
   {
-    name: "Remove one penalty",
-    desc: "Cancel one mission penalty applied to your talent.",
+    name: "Attention to Detail +3",
+    desc: "Enhance your precision with +3 points.",
   },
   {
-    name: "Double one skill",
-    desc: "Choose one skill and double its value for this duel.",
+    name: "Marketing Knowledge +4",
+    desc: "Add +4 to your Marketing Knowledge skill.",
   },
-  { name: "+3 Final Score", desc: "Add +3 directly to your final duel score." },
+  { name: "Communication +5", desc: "Boost your Communication skill by 5." },
   {
-    name: "Highest Skill +5",
-    desc: "Add +5 to the highest skill of your talent.",
+    name: "Graphic Design +4",
+    desc: "Increase your Graphic Design skill by 4 points.",
   },
   {
-    name: "+2 Mission Bonuses",
-    desc: "Add +2 to all positive mission bonuses you receive.",
+    name: "Budget Management +3",
+    desc: "Improve your Budget Management by 3 points.",
+  },
+  { name: "Animation +5", desc: "Gain +5 points in Animation skill." },
+  { name: "Management +4", desc: "Add +4 to your Management skill." },
+  {
+    name: "Data Analysis +5",
+    desc: "Boost your Data Analysis skill by 5 points.",
+  },
+  {
+    name: "Problem Solving +3",
+    desc: "Improve your Problem Solving with +3 points.",
+  },
+  {
+    name: "Logical Thinking +4",
+    desc: "Strengthen your Logical Thinking by 4 points.",
   },
 ];
 
