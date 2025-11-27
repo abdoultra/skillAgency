@@ -24,7 +24,9 @@
 
     <!-- PAGE 1 : HOME -->
     <div id="page-home" class="page fade" style="display: block;">
-        <img id="logo" src="./img/logo.png" alt="Game Logo">
+        <a href="">
+            <img id="logo" src="./img/logo.png" alt="Game Logo">
+        </a>
 
         <button class="btn-custom btn-shadow mt-5" onclick="goToBoostPage()">
             SHOW MY BOOST
@@ -33,17 +35,16 @@
 
     <!-- PAGE 2 : BOOST RESULT -->
     <div id="page-boost" class="page fade">
-        <img id="logo" src="./img/logo.png" alt="Game Logo">
+        <a href="./index.html">
+            <img id="logo" src="./img/logo.png" alt="Game Logo">
+        </a>
+        
 
         <h2 id="boost"></h2>
         <div id="description"></div>
 
         <button class="btn-custom mt-4" onclick="generateBoost()">
             Generate Another
-        </button>
-
-        <button class="btn-custom mt-3" onclick="goHome()">
-            Back Home
         </button>
     </div>
 
